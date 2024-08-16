@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/rootLayout"
+    android:layout_gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg4">
+
+    <TextView
+        android:layout_width="388dp"
+        android:layout_height="142dp"
+        android:layout_margin="15dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/speed_x"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="387dp"
+        android:layout_height="47dp"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/crete_round"
+        android:gravity="center|bottom"
+        android:text="@string/score_"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/Highscore"
+        android:layout_width="387dp"
+        android:layout_height="47dp"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/crete_round"
+        android:gravity="center|bottom"
+        android:text="High Score : "
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/red"
+        android:fontFamily="@font/calistoga"
+        android:gravity="center"
+        android:text="@string/start"
+        android:textAlignment="center" />
+
+</LinearLayout>

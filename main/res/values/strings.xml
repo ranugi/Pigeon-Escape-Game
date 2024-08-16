@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CarRaceGame</string>
+    <string name="score_0">Score = 0</string>
+    <string name="score_">Score : 0</string>
+    <string name="start">Start</string>
+    <string name="speedx">SpeedX</string>
+    <string name="high_score">High Score :</string>
+    <string name="speed_x">SPEED X</string>
+</resources>
